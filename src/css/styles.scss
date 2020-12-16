@@ -2,20 +2,15 @@
 @use './base/fonts';
 @import "../../icons/style.css";
 
-// #img-bg {
-//   background: url("./images/background.jpg");
-//   background-size: cover;
-//   background-color: orange;
-// }
-
-body {
+#img-bg {
+  // background: url("./images/background.jpg");
+  background-size: cover;
   background-color: #555555;
 }
 
 .container {
   width: 1175px;
   margin: 0 auto;
-  background-color: #555555;
 }
 
 header {
@@ -134,6 +129,7 @@ section {
   display: flex;
   background-color: #fff;
   margin: auto;
+  padding-top: 85px;
   padding-bottom: 85px;
   article {
     margin: 22px;
