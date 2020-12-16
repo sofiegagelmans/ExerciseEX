@@ -14,12 +14,10 @@
   padding-left: 150px;
   padding-right: 150px;
   margin: 0 auto;
-  background-color: lightblue;
+  background-color: #555555;
 }
 
 header {
-  background-color: lightblue;
-
   nav {
     display: flex;
     justify-content: space-between;
@@ -65,7 +63,7 @@ header {
 }
 
 main {
-  background-color: lightblue;
+  background-color: #555555;
   padding-top: 285px;
   padding-bottom: 285px;
   display: flex;
@@ -108,6 +106,22 @@ main {
     border-radius: 4px;
     border-bottom: 4px solid #736357;
     text-transform: uppercase;
+  }
+  .icon-left {
+    position: absolute;
+    font-size: 72px;
+    fill-opacity: 0.5;
+    color: white;
+    left: 150px;
+    top: 50%;
+  }
+  .icon-right {
+    position: absolute;
+    font-size: 72px;
+    fill-opacity: 0.5;
+    color: white;
+    right: 150px;
+    top: 50%;
   }
 }
 
